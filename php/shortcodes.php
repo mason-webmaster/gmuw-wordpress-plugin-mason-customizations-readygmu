@@ -54,7 +54,7 @@ function gmuw_readygmu_latest_mason_alert(){
 
     // Should we output alert info?
     if(check_range($timenow, $alertcomputertime, $time24hrsago)) {
-        $content.=$alerthumantime . $alertdescription;
+        $content.='<p>' . $alerthumantime .' - '. $alertdescription .'</p>';
     } else {
         $content.='<div class="gmuw-readygmu-latest-mason-alert"><p><strong>No Mason Alerts within the last 24 hours.</strong></p> <p>To receive Mason Alerts on your mobile device, please register at <a href="http://ready.gmu.edu/masonalert/">alert.gmu.edu</a>.</p></div>';
     };
