@@ -29,16 +29,16 @@ __FILE__,
 // Load custom code modules. Comment lines here to turn on or off individual features
 
 // styles
-require('php/styles.php');
+//require('php/styles.php');
 
 // scripts
-require('php/scripts.php');
+//require('php/scripts.php');
 
 // post types
-require('php/post-types.php');
+//require('php/post-types.php');
 
 // taxonomies
-require('php/taxonomies.php');
+//require('php/taxonomies.php');
 
 // shortcodes
 require('php/shortcodes.php');
